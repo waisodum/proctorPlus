@@ -4,7 +4,7 @@ import { AuthProvider } from "./context/AuthContext";
 // import AuthenticationPage from "./pages/AuthenticationPage";
 // import Authenticationpage from "./components/login";
 import AuthenticationPage from "./pages/AuthenticationPage";
-import PhoneDetectionWithDrag from "./components/faceapi";
+import FaceYawDetection from "./components/faceapi";
 import Dashoard from "./pages/Dashoard";
 import ExamInterface from "./pages/ExamInterface";
 import TestPage from "./pages/TestPage";
