@@ -1,15 +1,12 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Navigate, Link } from "react-router-dom";
 import { AuthProvider } from "./context/AuthContext";
-// import AuthenticationPage from "./pages/AuthenticationPage";
-// import Authenticationpage from "./components/login";
 import AuthenticationPage from "./pages/AuthenticationPage";
 import FaceYawDetection from "./Components/faceapi";
 import Dashoard from "./pages/Dashoard";
 import ExamInterface from "./pages/ExamInterface";
 import TestPage from "./pages/TestPage";
 import Admin from "./pages/Admin";
-import AudioMCQMonitor from "./Components/speech/speechrecog";
 import img from "./assets/ss.png";
 import "./app.css";
 import SkillTests from "./Components/skillTest";
@@ -75,7 +72,6 @@ const App = () => {
             <Route path="/face" element={<FaceYawDetection />} />
             <Route path="/dashboard/*" element={<Dashoard />} />
             {/* <Route path="/test" element={<TestPage />} /> */}
-            <Route path="/speech" element={<AudioMCQMonitor />} />
             <Route path="/exam/" element={<ExamInterface />} />
             <Route path="/reports" element={<Admin />} />
             <Route path="/test" element={<SkillTests />} />
