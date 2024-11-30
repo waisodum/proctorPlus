@@ -72,7 +72,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/auth" element={<AuthenticationPage />} />
-            <Route path="/face" element={<PhoneDetectionWithDrag />} />
+            <Route path="/face" element={<FaceYawDetection />} />
             <Route path="/dashboard/*" element={<Dashoard />} />
             {/* <Route path="/test" element={<TestPage />} /> */}
             <Route path="/speech" element={<AudioMCQMonitor />} />
