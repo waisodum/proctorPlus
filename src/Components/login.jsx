@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 import WebcamCapture from "./WebcamCapture";
 const backend = import.meta.env.VITE_PUBLIC_API;
+
 const Login = () => {
   const navigate = useNavigate();
   const { setUser, loading } = useAuth();
